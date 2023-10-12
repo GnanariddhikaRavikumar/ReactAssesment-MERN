@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.food-logo{
+  height:140px;
+  width: 140px;
+  border:1px solid transparent;
+  border-radius: 100px;
+}
+
+.header{
+  display:flex;
+  justify-content:space-around;
+  border:1px solid black;
+  margin:10px;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaE32E4lXFDLBlrdR2Pq0cG4sIq6F-Jt2bBQ&usqp=CAU");
+}
+
+nav > ul{
+  font-style: bold;
+  font-family: 'Times New Roman';
+  display:flex;
+  justify-content: space-around;
+  align-items:center ;
+  float:left;
+  border:1px solid transparent;
+}
+
+nav > ul >li{
+  list-style-type: none;
+  margin:5px;
+  font-size: 155%;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav > ul>li:hover {
+  background-color: transparent;
+  cursor:pointer;
+  border:1px solid lightcoral;
+  border-radius: 25px;
+}
+
+nav>ul>li>a{
+  text-decoration:none;
+  color:antiquewhite;
+
+}
+
+.Search-bar{
+  margin:10px;
+  border-radius: 25px;
+}
+
+.Search-bar > button{
+  margin-left:10px;
+  border-radius: 25px;
+  font-size: larger;
+  font-family:'Lucida Sans Regular';
+  
+
+}
+.restaurant-card{
+  margin:10px;
+  border:1px solid whitesmoke;
+  width:350px;
+  height:400px;
+  padding:10px;
+  border-radius: 25px;
+
+}
+
+.restaurant-card:hover{
+  border:1px solid grey;
+  cursor:pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.restaurant-card>img{
+  width: 100%;
+  height:70%;
+  border-radius: 25px;
+}
+
+.res-card-details{
+  display: flex;
+  justify-content:space-between;
+}
+
+.res-container{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.res-container a{
+  text-decoration:none;
+  color:black;
+}
+
+footer{
+  border:1px solid black;
+  height:90px;
+  margin: 10px;
+  padding:10px;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_DMFRrcZt_gqn4Zd_udBJvqp0UWWo8ec1fqkb5evBkfoWXfJXoE94lVGAz7AKDqyxA&usqp=CAU");
+  align-items: flex-end;
+  color:antiquewhite;
+}
+
+.about{
+  background-color: lavenderblush;
+  margin:10px;
+}
+
+.about h1{
+  font-family:  Georgia;
+  color:darkcyan;
+}
+
+.about h2{
+  font-family: 'Lucida Grande';
+  color:#282c34;
+}
+
+.Contact{
+  background-color: azure;
+  margin:10px;
+}
+
+.Contact h1{
+  font-family:  Georgia;
+  color:rgb(0, 61, 61);
+}
+
+.Contact h2{
+  font-family: 'Lucida Grande';
+  color:darkgreen;
+  font-size: x-large;
+
+}
+
+.Contact p{
+  font-family:Impact;
+  color:olive;
+  font-size: 150%;
+}
+
+.Profile>button{
+  color: darkcyan;
+  font-size: x-large;
+  border:25px;
+  margin:10px;
+}
+
+.Profile>button:hover{
+  cursor:pointer;
+  border:1px solid grey;
+}
